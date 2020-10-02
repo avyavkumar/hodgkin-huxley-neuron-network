@@ -1,0 +1,95 @@
+scope of variables - worker_trial.c - scope ends within one trial
+  Done
+  Degree
+  edgematrix
+  edgematrix1
+  probability
+  randomnumber
+  no_of_connections
+  connections[i]
+  countno
+  V[i]
+  k1[i]
+  k2[i]
+  k3[i]
+  k4[i]
+  m1[i]
+  m2[i]
+  m3[i]
+  m4[i]
+  n1[i]
+  n2[i]
+  n3[i]
+  n4[i]
+  h1[i]
+  h2[i]
+  h3[i]
+  h4[i]
+  coupling1[i]
+  coupling2[i]
+  coupling3[i]
+  m_noise[i]
+  n_noise[i]
+  h_noise[i]
+  alpha_m[i]
+  beta_m[i]
+  alpha_h[i]
+  beta_h[i]
+  alpha_n[i]
+  beta_n[i]
+  m[i]
+  h[i]
+  n[i]
+  sum_coupling
+  f_correlation[N][N]
+  tmp0
+  tmp1
+  s
+  a
+  b
+  c
+  z
+  smax
+  ignore[1024]
+  t1 = 0.0
+  t2 = timewell
+  no_cycles
+  sum_total
+  voltagematrix[n_steps];
+  timematrix[n_steps];
+  tspike
+  AvgISI[N]
+  ISI
+  count_isi
+  Y[i][j]
+  sumspikes
+  distance[N][N]
+  max_dist
+  fc_degree
+
+scope of variables - worker_trial.c - scope ends within all trials
+  FinalISI[i] = FinalISI[i] + AvgISI[i]
+  tot_degree
+  count_degree
+  firing_coherence
+
+file_scope
+  trial_files:
+   fm_noiseId => m_noise.txt
+
+   yid => Y.txt
+   fspiketimeid => Spiketime.txt
+   fAdjacencymatrixId => RewiredMatrix.txt
+   fV_vs_t_id => V_vs_T.txt
+   fVTid => VT.txt
+   frandomnumberId => Randomnumbers.txt
+   fNoConnectionsId => NoOfConnections.txt
+   fmvalueId => mvalues.txt
+   fhvalueId => hvalues.txt
+   fnvalueId => nvalues.txt
+
+  init_files:
+   fcdegreeid
+   firingcoherenceid
+   fisiid
+   fmeanisiid
